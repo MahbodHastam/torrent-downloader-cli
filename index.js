@@ -14,9 +14,6 @@ if (!hash) {
   process.exit();
 }
 
-// https://itorrents.org/torrent/47EEBC7714DB479C0C32DEC563630AC81BA27B2E.torrent
-// https://itorrents.org/torrent/1B385B301E62464056DD3CDD7EA64096780E748B.torrent
-
 const getDownloadsDirectory = () => {
   // return process.env[(process.platform === 'win32') ? 'USERPROFILE' : 'HOME'];
   return os.homedir() + '/Downloads';
