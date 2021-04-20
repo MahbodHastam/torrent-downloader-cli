@@ -1,6 +1,9 @@
 ## Torrent Downloader
 
-### 📿 Usage
-`npm install`
+### ⚙️ Installation
+`yarn global add torrent-downloader-cli`
+or
+`npm i -g torrent-downloader-cli`
 
-`node index.js YOUR_TORRENT_LINK`
+### 📿 Usage
+`torrent-downloader-cli LINK`
