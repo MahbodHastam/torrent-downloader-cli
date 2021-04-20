@@ -1,11 +1,14 @@
 {
   "name": "torrent-downloader-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "repository": "https://github.com/MahbodHastam/torrent-downloader-cli",
   "author": "MahbodHastam",
   "license": "MIT",
   "private": false,
+  "bin": {
+    "torrent-downloader-cli": "index.js"
+  },
   "dependencies": {
     "cli-progress": "^3.9.0",
     "webtorrent-hybrid": "^4.0.3"
